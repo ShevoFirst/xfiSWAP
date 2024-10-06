@@ -7,10 +7,10 @@
 	"license": "GPL-3.0-or-later",
 	"scripts": {
 		"analyze": "ANALYZE=true yarn build",
-		"dev": "next dev",
+		"dev": "PORT=3002 next dev",
 		"format": "prettier --write .",
 		"build": "next build",
-		"start": "next start",
+		"start": "PORT=3002 next start",
 		"lint": "next lint"
 	},
 	"dependencies": {
