@@ -1,7 +1,7 @@
 export const capitalizeFirstLetter = (word) => word.charAt(0).toUpperCase() + word.slice(1);
 
 export function chainIconUrl(chain) {
-	return `/xfiSwap/chain-icons/rsz_${chain.toLowerCase()}.jpg`;
+	return `/xfiSwap/main/chain-icons/rsz_${chain.toLowerCase()}.jpg`;
 }
 
 export function getSavedTokens() {
