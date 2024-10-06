@@ -14,16 +14,16 @@ const nextConfig = {
 	headers: [
 		{
 			key: 'Access-Control-Allow-Origin',
-			value: '*'
+			value: '*',
 		},
 		{
 			key: 'Access-Control-Allow-Methods',
-			value: 'GET'
+			value: 'GET',
 		},
 		{
 			key: 'Access-Control-Allow-Headers',
-			value: 'X-Requested-With, content-type, Authorization'
-		}
+			value: 'X-Requested-With, content-type, Authorization',
+		},
 	],
 	basePath: '/xfiSwap', // Добавьте этот ключ
     assetPrefix: '/xfiSwap', // Укажите префикс для ассетов
