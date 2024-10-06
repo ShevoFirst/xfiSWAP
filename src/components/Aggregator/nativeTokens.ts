@@ -257,6 +257,5 @@ export const nativeTokens = [
 	okx,
 	moonbeam,
 	crossfi,
-	chinazes,
 	fuse
 ]
