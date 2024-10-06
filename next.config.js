@@ -25,8 +25,8 @@ const nextConfig = {
 			value: 'X-Requested-With, content-type, Authorization',
 		},
 	],
-	basePath: '/xfiSwap', // Добавьте этот ключ
-    assetPrefix: '/xfiSwap', // Укажите префикс для ассетов
+	basePath: '/xfiSwap/main', // Добавьте этот ключ
+    assetPrefix: '/xfiSwap/main', // Укажите префикс для ассетов
 	experimental: {}
 };
 
