@@ -1,6 +1,6 @@
 import * as React from 'react'
 import styled from 'styled-components'
-import NextImage from 'next/future/image'
+import NextImage from 'next/image'
 import PlaceHolder from '~/public/placeholder.png'
 
 interface TokenLogoProps {
